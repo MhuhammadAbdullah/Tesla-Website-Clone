@@ -12,6 +12,10 @@
 <body>
   <nav class="nav-container">
     <img class="logo" src="Images/logo.svg" alt="Tesla Logo" />
+    <input type="checkbox" id="menu-toggle" />
+    <label for="menu-toggle" class="hamburger">
+      <i class="fa fa-bars"></i>
+    </label>
     <ul class="nav-links">
       <li>Vehicles</li>
       <li>Energy</li>
@@ -24,23 +28,8 @@
       <i class="fa-solid fa-globe"></i>
       <i class="fa-regular fa-circle-user"></i>
     </div>
-    <div class="hamburger">
-      <i class="fa-solid fa-bars"></i>
-    </div>
   </nav>
 
-  <div class="dropdown-menu">
-    <ul>
-      <li>Vehicles</li>
-      <li>Energy</li>
-      <li>Charging</li>
-      <li>Discover</li>
-      <li>Shop</li>
-      <li><i class="fa-regular fa-circle-question"></i></li>
-      <li><i class="fa-solid fa-globe"></i></li>
-      <li><i class="fa-regular fa-circle-user"></i></li>
-    </ul>
-  </div>
   <ul class="pages">
     <li>
       <img src="Images/Model-3.png" alt="Model Y Image" />
@@ -107,7 +96,8 @@
     <li>
       <img src="Images/Cybertruck.png" alt="Cybertruck Image" />
       <div class="page-info-Cybertruck">
-        <h1>Cyber Truck</h1>
+      <img class="overly" src="Images/file (5).png" alt="">
+        
       </div>
       <div class="page-footer">
         <div class="buttons inverted">
@@ -218,11 +208,6 @@
     </div>
   </footer>
 
-  <script>
-    document.querySelector('.hamburger').addEventListener('click', () => {
-      document.querySelector('.dropdown-menu').classList.toggle('open');
-    });
-  </script>
 </body>
 
 </html>
