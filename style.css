@@ -106,11 +106,11 @@ html {
   .hamburger {
     display: block;
     cursor: pointer;
-    order: 2; /* Ensure it appears after the logo */
+    order: 2; 
   }
 
   .logo {
-    order: 1; /* Ensure the logo is on the left */
+    order: 1; 
   }
 
   #menu-toggle:checked + .hamburger + .nav-links {
@@ -236,7 +236,7 @@ html {
   display: flex;
   gap: 20px;
   justify-content: center;
-  flex-direction: row; /* Stack buttons vertically */
+  flex-direction: row; 
 }
 
 .page-footer .buttons button {
@@ -245,18 +245,18 @@ html {
   border-radius: 5px;
   border: none;
   cursor: pointer;
-  width: 250px; /* Ensure buttons take full width */
+  width: 250px; 
 }
 
 @media (max-width: 768px) {
   .page-footer .buttons {
-    flex-direction: column; /* Stack buttons vertically on small screens */
-    width: 100%; /* Ensure buttons take full width in column layout */
-    align-items: center; /* Center buttons horizontally */
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
   }
 
   .page-footer .buttons button {
-    width: 65%; /* Adjust button width for small screens */
+    width: 65%;
   }
 }
 
@@ -340,7 +340,7 @@ html {
   text-decoration: none;
 }
 
-/* New media queries for smaller devices */
+
 @media (max-width: 480px) {
   .nav-container {
     flex-direction: row;
